@@ -24,7 +24,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/Dezzpil/swagger-php.git"
+            "url": "github.com/Dezzpil/swagger-php.git"
         }
     ],
     "require-dev": {
