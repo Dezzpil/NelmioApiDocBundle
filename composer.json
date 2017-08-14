@@ -21,6 +21,12 @@
         "exsyst/swagger": "~0.3",
         "Dezzpil/swagger-php": "master"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Dezzpil/swagger-php.git"
+        }
+    ],
     "require-dev": {
         "symfony/templating": "^2.8|^3.0|^4.0",
         "symfony/twig-bundle": "^3.0|^4.0",
@@ -42,12 +48,7 @@
         "friendsofsymfony/rest-bundle": "^2.0",
         "jms/serializer-bundle": "^1.0|^2.0"
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/Dezzpil/swagger-php.git"
-        }
-    ],
+
     "suggest": {
         "phpdocumentor/reflection-docblock": "For parsing php docs.",
         "api-platform/core": "For using an API oriented framework.",
