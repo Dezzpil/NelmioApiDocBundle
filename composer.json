@@ -19,7 +19,7 @@
         "symfony/framework-bundle": "^3.2.5|^4.0",
         "symfony/property-info": "^3.1|^4.0",
         "exsyst/swagger": "~0.3",
-        "Dezzpil/swagger-php": "master"
+        "Dezzpil/swagger-php": "dev-master"
     },
     "repositories": [
         {
