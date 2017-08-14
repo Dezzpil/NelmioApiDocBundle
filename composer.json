@@ -19,14 +19,14 @@
         "symfony/framework-bundle": "^3.2.5|^4.0",
         "symfony/property-info": "^3.1|^4.0",
         "exsyst/swagger": "~0.3",
-        "Dezzpil/swagger-php": "dev-master"
+        "dezzpil/swagger-php": "dev-master"
     },
-    "repositories": [
-        {
+    "repositories": {
+	    "dezzpil/swagger-php": {
             "type": "git",
             "url": "github.com/Dezzpil/swagger-php.git"
         }
-    ],
+    },
     "require-dev": {
         "symfony/templating": "^2.8|^3.0|^4.0",
         "symfony/twig-bundle": "^3.0|^4.0",
@@ -63,5 +63,6 @@
         "branch-alias": {
             "dev-master": "3.0.x-dev"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
